@@ -1,7 +1,5 @@
 ﻿# coaching_center
 
-# Coaching Center
-
 ## 🎥 Demo Video  
 [![Watch the video](https://img.youtube.com/vi/gCZ24n4oZ8s/0.jpg)](https://youtu.be/gCZ24n4oZ8s)
 
@@ -76,4 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 
