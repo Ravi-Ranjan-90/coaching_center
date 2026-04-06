@@ -35,12 +35,7 @@ const Header = () => {
             <img src={logo} className="w-16 h-10 pt-0 mt-0" alt="Logo"/>
             </Link>
         </div>
-        {/* <div className="flex l">
-            <div>
-            <input  className="rounded-l-lg h-full bg-gray-200 outline-none px-3 "type="text " placeholder='search for coachings...'/>
-            </div>
-            <div className="pt-2 rounded-r-lg bg-gray-300 px-2"><CiSearch /></div>
-        </div> */}
+
           <div>
         {user ? (
           <>
@@ -49,15 +44,6 @@ const Header = () => {
             <div className=' text-3xl' onClick={()=>setMenuDisplay(prev => !prev)}>
             <FaRegUserCircle />
             </div>
-            {/* {
-              menuDisplay && (
-                <div className='absolute bottom-0 top-12 bg-white h-fit p-2 shadow-lg rounded'>
-            <div>
-              <Link to={"admin-panel"} className="whitespace-nowrap hover:bg-slate-100 p-2" onClick={()=>setMenuDisplay(prev => !prev)}>Admin Panel</Link>
-            </div>
-          </div>
-              )
-            } */}
             {
   menuDisplay && (
     <div className='absolute bottom-0 top-12 bg-white h-fit p-2 shadow-lg rounded'>
