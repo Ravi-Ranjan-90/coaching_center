@@ -1,4 +1,4 @@
-import { Search, Star, MapPin, BookOpen, Users, Calendar, ChevronRight, Clock, GraduationCap, DollarSign, MessageSquare, ThumbsUp } from 'lucide-react';
+import {Star,ChevronRight} from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 function SimilarCoachingCard({ center, currentId }) {

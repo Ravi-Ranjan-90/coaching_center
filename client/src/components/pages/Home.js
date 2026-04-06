@@ -4,9 +4,9 @@
 // -----
 import React from 'react';
 import { useEffect } from 'react';
-import { CiSearch } from "react-icons/ci";
-import { BrowserRouter, Routes, Route, Link, useParams, useNavigate } from 'react-router-dom';
-import { Search, Star, MapPin, BookOpen, Users, Calendar, ChevronRight, Clock, GraduationCap, DollarSign, MessageSquare, ThumbsUp } from 'lucide-react';
+// import { CiSearch } from "react-icons/ci";
+import { useNavigate } from 'react-router-dom';
+import { Search, Star, MapPin, Users, Calendar, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import CenterDetails from "./CenterDetails"; // Assuming you have this component
 import BookingPage from "./BookingPage"; 
